@@ -34,8 +34,6 @@ This project is designed to help beginners understand **full-stack web developme
   - View user activities
 - **Session Management**
   - User sessions with timeout configuration
-- **Error Handling**
-  - Custom 404 and 500 error pages
 - **Simple and Clean UI**
   - JSP + CSS based front-end without external frameworks
 - **Database Integration**
@@ -49,7 +47,7 @@ This project is designed to help beginners understand **full-stack web developme
 |--------------|--------------------------|
 | Frontend     | HTML5, CSS3, JSP          |
 | Backend      | Java (Servlets, JSP)      |
-| Database     | MySQL (or MariaDB)        |
+| Database     | MySQL                     |
 | Server       | Apache Tomcat 9           |
 | Java Library | JDBC (Java Database Connectivity) |
 
@@ -134,9 +132,6 @@ Webapp/
 
 5. **Session Handling**
    - If inactive for a certain period (e.g., 30 minutes), the session expires automatically.
-
-6. **Error Handling**
-   - Friendly 404 and 500 error pages are displayed for missing pages or server errors.
 
 ---
 
